@@ -20,7 +20,7 @@ Please viSLV our wiki for more information:
 
 ## Resource Links
 
-[discord](https://www.)
+[Discord](https://www.)
 
 [Silver Forks Calculator](https://silverforkscalculator.com/)
 
@@ -35,14 +35,14 @@ Please viSLV our wiki for more information:
    $ silver farm summary
    ...
    Staking addresses:
-     xcf1x6jjvepyvjv7395nmtywvx9mknshgy78dsmuu38m0e9grxr080nsltjugr (balance: 0, plots: 27)
+     slv1x6jjvepyvjv7395nmtywvx9mknshgy78dsmuu38m0e9grxr080nsltjugr (balance: 0, plots: 27)
    ...
    ```
 
-2. DepoSLV coins to the staking address:
+2. Deposit SLV coins to the staking address:
 
    ```
-   $ silver wallet send -t xcf1x6jjvepyvjv7395nmtywvx9mknshgy78dsmuu38m0e9grxr080nsltjugr -a 1
+   $ silver wallet send -t slv1x6jjvepyvjv7395nmtywvx9mknshgy78dsmuu38m0e9grxr080nsltjugr -a 1
    ```
 
    Wait for the transaction get confirmed, query staking balance again:
@@ -51,14 +51,14 @@ Please viSLV our wiki for more information:
    $ silver farm summary
    ...
    Staking addresses:
-     xcf1x6jjvepyvjv7395nmtywvx9mknshgy78dsmuu38m0e9grxr080nsltjugr (balance: 1, plots: 27)
+     slv1x6jjvepyvjv7395nmtywvx9mknshgy78dsmuu38m0e9grxr080nsltjugr (balance: 1, plots: 27)
    ...
    ```
 
 3. Withdraw coins from the staking address:
 
    ```
-   $ silver wallet send_from -s xcf1x6jjvepyvjv7395nmtywvx9mknshgy78dsmuu38m0e9grxr080nsltjugr -t $RECEIVER -a 10
+   $ silver wallet send_from -s slv1x6jjvepyvjv7395nmtywvx9mknshgy78dsmuu38m0e9grxr080nsltjugr -t $RECEIVER -a 10
    ```
 
    Do a transaction to transfer the coins from the staking address to any receive address.
