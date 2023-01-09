@@ -30,11 +30,11 @@ ubuntu_cmake_install() {
 }
 
 symlink_vdf_bench() {
-	if [ ! -e vdf_bench ] && [ -e venv/lib/"$1"/Site-packages/vdf_bench ]; then
-		echo ln -s venv/lib/"$1"/Site-packages/vdf_bench
-		ln -s venv/lib/"$1"/Site-packages/vdf_bench .
-	elif [ ! -e venv/lib/"$1"/Site-packages/vdf_bench ]; then
-		echo "ERROR: Could not find venv/lib/$1/Site-packages/vdf_bench"
+	if [ ! -e vdf_bench ] && [ -e venv/lib/"$1"/site-packages/vdf_bench ]; then
+		echo ln -s venv/lib/"$1"/site-packages/vdf_bench
+		ln -s venv/lib/"$1"/site-packages/vdf_bench .
+	elif [ ! -e venv/lib/"$1"/site-packages/vdf_bench ]; then
+		echo "ERROR: Could not find venv/lib/$1/site-packages/vdf_bench"
 	else
 		echo "./vdf_bench link exists."
 	fi
