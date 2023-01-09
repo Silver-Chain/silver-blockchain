@@ -20,13 +20,12 @@ Please viSLV our wiki for more information:
 
 ## Resource Links
 
-[SilverHub](https://www.silver-hub.com/)
+[discord](https://www.)
 
 [Silver Forks Calculator](https://silverforkscalculator.com/)
 
 [Silverforks Blockchain](https://silverforksblockchain.com/)
 
-[TokenDock](https://tokendock.io/)
 
 ## How to staking
 
