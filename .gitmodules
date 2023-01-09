@@ -1,6 +1,6 @@
 [submodule "silver-blockchain-gui"]
 	path = silver-blockchain-gui
-	url = https://github.com/silver-network/silver-blockchain-gui.git
+	url = https://github.com/Silver-Chain/silver-blockchain/silver-blockchain-gui.git
 	branch = main
 [submodule "mozilla-ca"]
 	path = mozilla-ca
@@ -8,4 +8,4 @@
         branch = main
 [submodule "silver-blockchain-gui"]
 	path = silver-blockchain-gui
-	url = https://github.com/Silver-Network/silver-blockchain-gui
+	url = https://github.com/Silver-Chain/silver-blockchain/silver-blockchain-gui

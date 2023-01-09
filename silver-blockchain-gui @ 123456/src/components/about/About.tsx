@@ -147,7 +147,7 @@ export default function About(props: Props) {
         </VersionsTable>
 
         <BugReport
-          href="https://github.com/silver-network/silver-blockchain/issues"
+          href="https://github.com/Silver-Chain/silver-blockchain/silver-blockchain/issues"
           target="_blank"
         >
           Report an issue

@@ -9,5 +9,6 @@
     "\\silver",
     "\\silver-blockchain-gui"
   ],
+  "SelectedNode": "\\build_scripts\\build_linux_rpm.sh",
   "PreviewInSolutionExplorer": false
 }
