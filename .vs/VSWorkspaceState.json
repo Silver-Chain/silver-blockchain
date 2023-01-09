@@ -1,0 +1,13 @@
+{
+  "ExpandedNodes": [
+    "",
+    "\\.github",
+    "\\.github\\ISSUE_TEMPLATE",
+    "\\build_scripts",
+    "\\install_scripts",
+    "\\mozilla-ca",
+    "\\silver",
+    "\\silver-blockchain-gui"
+  ],
+  "PreviewInSolutionExplorer": false
+}
