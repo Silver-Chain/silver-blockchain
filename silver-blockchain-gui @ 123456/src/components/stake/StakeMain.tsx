@@ -159,8 +159,8 @@ export default function StakeMain() {
       }
       stakeCoins = temp
 
-      let total_xcf: number = mojo_to_silver(total);
-      return "Staking Balance: " + total_xcf.toLocaleString();
+      let total_slv: number = mojo_to_silver(total);
+      return "Staking Balance: " + total_slv.toLocaleString();
     }
 
 

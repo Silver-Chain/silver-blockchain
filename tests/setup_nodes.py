@@ -217,10 +217,10 @@ async def setup_farmer(
     config = bt.config["farmer"]
     config_pool = bt.config["pool"]
 
-    config["xcf_target_address"] = encode_puzzle_hash(b_tools.farmer_ph, "xcf")
+    config["slv_target_address"] = encode_puzzle_hash(b_tools.farmer_ph, "slv")
     config["pool_public_keys"] = [bytes(pk).hex() for pk in b_tools.pool_pubkeys]
     config["port"] = port
-    config_pool["xcf_target_address"] = encode_puzzle_hash(b_tools.pool_ph, "xcf")
+    config_pool["slv_target_address"] = encode_puzzle_hash(b_tools.pool_ph, "slv")
 
     if full_node_port:
         config["full_node_peer"]["host"] = self_hostname

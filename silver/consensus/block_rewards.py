@@ -5,7 +5,7 @@ _mojo_per_silver = 1000000000000
 _blocks_per_year = 1681920  # 32 * 6 * 24 * 365
 
 # preserve + testnet supply
-PREFARM = 5000000
+PREFARM = 2500000
 
 
 def calculate_pool_reward(height: uint32) -> uint64:

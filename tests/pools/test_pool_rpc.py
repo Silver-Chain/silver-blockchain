@@ -430,7 +430,7 @@ class TestPoolWalletRpc:
         assert len(await wallet_node_0.wallet_state_manager.tx_store.get_unconfirmed_for_wallet(2)) == 0
 
         tr: TransactionRecord = await client.send_transaction(
-            1, 100, encode_puzzle_hash(status.p2_singleton_puzzle_hash, "txcf")
+            1, 100, encode_puzzle_hash(status.p2_singleton_puzzle_hash, "tslv")
         )
         await time_out_assert(
             10,
